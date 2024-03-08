@@ -21,7 +21,7 @@ export const loginRouter = async (req, res) => {
     const { email, password } = req.body;
     
     try{
-        console.log('Email:', email);
+        console.log('Emal:', email);
         const result = await pool.query('SELECT * FROM userdata WHERE email = $1', [email]);
         console.log('Query result:', result.rows);
         if (result.rows.length === 0) {
