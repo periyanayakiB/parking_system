@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.1.0",
+    "passport": "^0.7.0",
+    "pg": "^8.11.3",
+    "postgres": "^3.4.3"
+  },
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend for parking system",
+  "main": "apiindex.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon node apiindex",
+    "start": "node apiindex"
+  },
+  "author": "periyanayakiB",
+  "license": "ISC"
+}
